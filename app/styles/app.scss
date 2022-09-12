@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #f3f3f3;
+  }
+
+  .wrapper {
+    background: url('/assets/images/teaching-tomster.png');
+    width: 632px;
+    height: 694px;
+    position: absolute;
+    left: 40%;
+    z-index: 1;
+  }
+
+.header_tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.link_to {
+    list-style-type: none;
+}
+.link-to-div{
+    text-decoration: none;
+}
+.link_to li {
+    
+}
+  
