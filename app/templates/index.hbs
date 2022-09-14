@@ -1,18 +1,73 @@
 {{page-title "Index"}}
 <div class="header_tag">
     <div class="logo-heading">
-        <span class="em-tag">em</span>
-        <span class="si-tag">si</span>
+        em<span class="si-tag">si</span>
         </div>
     <nav>
         <ul class="link_to">
             <li><LinkTo @route="index" class="link-to-div">Home</LinkTo></li>
-            <li><LinkTo @route="index" class="link-to-div" >Home</LinkTo></li>
-            <li><LinkTo @route="index" class="link-to-div" >Home</LinkTo></li>
-            <li><LinkTo @route="index" class="link-to-div" >Home</LinkTo></li>
+            <li><LinkTo @route="index" class="link-to-div" >About</LinkTo></li>
+            <li><LinkTo @route="index" class="link-to-div" >Shop</LinkTo></li>
+            <li><LinkTo @route="index" class="link-to-div" >Contact</LinkTo></li>
         </ul>
     </nav>
     <LinkTo @route="shopping-cart" class="button">Login</LinkTo>
 </div>
+<div  class="clothing-img">
+    <div class="clothing-img-content">
+    <div class="clothing-img-content1">
+        spring/summer collection 2022
+    </div>
+    <div class="clothing-img-content2">
+        Get upto 30% off New arrivals
+    </div>
+    <LinkTo @route="shopping-cart" class="button1">SHOP NOW</LinkTo>
+    </div>
+    {{!-- <img src="/assets/images/fashion-ecommerce-scaled.jpg" alt="clothing-img"> --}}
+</div>
+<section>
+<div class="row">
+    <div>
+        <div class="card">
+            <div class="inner-box">
+                <div class="front-side">
+                    <span>Men</span>
+                </div>
+                <div class="back-side">
+                    <span>view more</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="card">
+            <div class="inner-box">
+                <div class="front-side1">
+                    <span>Women</span>
+                </div>
+                <div class="back-side1">
+                    <span>
+                    view more
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="card">
+            <div class="inner-box">
+                <div class="front-side2">
+                    <span>Accessories</span>
+                </div>
+                <div class="back-side2">
+                    <span>
+                    View more
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
 {{outlet}}
